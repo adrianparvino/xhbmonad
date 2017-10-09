@@ -1,0 +1,12 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+extra-deps: 
+- xhb-0.6.2015.8.1
+resolver: lts-6.15
+
+nix:
+    #  pure: true
+  enable: true
+  packages: [ pkgconfig xlibs.libXau gcc ]
